@@ -43,14 +43,13 @@ public class JohnMovement : MonoBehaviour
         {
             Jump();
         }
-        /*
+
         // Disparar
         if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)
         {
             Shoot();
             LastShoot = Time.time;
         }
-        */
     }
 
     private void FixedUpdate()
@@ -63,7 +62,7 @@ public class JohnMovement : MonoBehaviour
         Rigidbody2D.AddForce(Vector2.up * JumpForce);
         Animator.SetBool("jumping", true);
     }
-    /*
+    
     private void Shoot()
     {
         Vector3 direction;
@@ -73,7 +72,7 @@ public class JohnMovement : MonoBehaviour
         GameObject bullet = Instantiate(BulletPrefab, transform.position + direction * 0.1f, Quaternion.identity);
         bullet.GetComponent<BulletScript>().SetDirection(direction);
     }
-
+    /*
     public void Hit()
     {
         Health -= 1;
