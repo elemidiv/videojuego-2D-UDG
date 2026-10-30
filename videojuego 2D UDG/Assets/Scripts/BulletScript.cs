@@ -30,7 +30,7 @@ public class BulletScript : MonoBehaviour
     {
         Destroy(gameObject);
     }
-    /*
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         GruntScript grunt = other.GetComponent<GruntScript>();
@@ -45,5 +45,4 @@ public class BulletScript : MonoBehaviour
         }
         DestroyBullet();
     }
-    */
 }

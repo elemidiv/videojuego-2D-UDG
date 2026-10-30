@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class JohnMovement : MonoBehaviour
@@ -34,7 +36,6 @@ public class JohnMovement : MonoBehaviour
         if (Physics2D.Raycast(transform.position, Vector3.down, 0.1f))
         {
             Grounded = true;
-            Animator.SetBool("jumping", false);
         }
         else Grounded = false;
 
@@ -60,9 +61,8 @@ public class JohnMovement : MonoBehaviour
     private void Jump()
     {
         Rigidbody2D.AddForce(Vector2.up * JumpForce);
-        Animator.SetBool("jumping", true);
     }
-    
+
     private void Shoot()
     {
         Vector3 direction;
@@ -72,11 +72,10 @@ public class JohnMovement : MonoBehaviour
         GameObject bullet = Instantiate(BulletPrefab, transform.position + direction * 0.1f, Quaternion.identity);
         bullet.GetComponent<BulletScript>().SetDirection(direction);
     }
-    /*
+
     public void Hit()
     {
         Health -= 1;
         if (Health == 0) Destroy(gameObject);
     }
-    */
 }

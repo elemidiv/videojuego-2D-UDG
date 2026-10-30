@@ -1,7 +1,28 @@
 fileFormatVersion: 2
-guid: 74c2880f50a87a0429c1c6cc23e7bbaf
+guid: 75c85716790a2f143b21c76071515bfd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5902855450250165542
+    second: weapon_bullet_0
+  - first:
+      213: -3156122162549437794
+    second: weapon_bullet_1
+  - first:
+      213: -7500341700066412395
+    second: weapon_bullet_2
+  - first:
+      213: -7233278182342934215
+    second: weapon_bullet_3
+  - first:
+      213: 4531275813216471585
+    second: weapon_bullet_4
+  - first:
+      213: 1499340714466408896
+    second: weapon_bullet_5
+  - first:
+      213: -1074786334143915823
+    second: weapon_bullet_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -65,7 +86,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -94,19 +115,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -120,7 +128,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WindowsStoreApps
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -144,15 +152,15 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 595be1e60e0e3e84d8e5a7eef23b6c91
-      internalID: 1860579935
+      spriteID: 62db3a0e1c72be150800000000000000
+      internalID: 5902855450250165542
       vertices: []
       indices: 
       edges: []
@@ -166,15 +174,15 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01376198db7f35e44a409364058eeafe
-      internalID: 51463449
+      spriteID: e9ac0817d933334d0800000000000000
+      internalID: -3156122162549437794
       vertices: []
       indices: 
       edges: []
@@ -188,15 +196,15 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8143665192a1b484f8429ac2125f38b8
-      internalID: 1968194443
+      spriteID: 598fd7956fe69e790800000000000000
+      internalID: -7500341700066412395
       vertices: []
       indices: 
       edges: []
@@ -210,15 +218,15 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d916d3731f72db4180b7ad1b9e9155a
-      internalID: 1282453459
+      spriteID: 931cdd311db3e9b90800000000000000
+      internalID: -7233278182342934215
       vertices: []
       indices: 
       edges: []
@@ -232,15 +240,15 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb86b39f8e47532429a86a823d0890c3
-      internalID: -2069159139
+      spriteID: 12a461a285352ee30800000000000000
+      internalID: 4531275813216471585
       vertices: []
       indices: 
       edges: []
@@ -254,15 +262,15 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12e525955ec1f414896db85eac7d3b85
-      internalID: 1963182650
+      spriteID: 0c9fc0b9f6abec410800000000000000
+      internalID: 1499340714466408896
       vertices: []
       indices: 
       edges: []
@@ -276,15 +284,15 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b86d553ae9bd9a44b721cbc542505ee
-      internalID: 2046697804
+      spriteID: 1d858e706879511f0800000000000000
+      internalID: -1074786334143915823
       vertices: []
       indices: 
       edges: []
@@ -301,17 +309,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":8.0,"y":8.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      weapon_bullet_0: 1860579935
-      weapon_bullet_1: 51463449
-      weapon_bullet_2: 1968194443
-      weapon_bullet_3: 1282453459
-      weapon_bullet_4: -2069159139
-      weapon_bullet_5: 1963182650
-      weapon_bullet_6: 2046697804
+      weapon_bullet_0: 5902855450250165542
+      weapon_bullet_1: -3156122162549437794
+      weapon_bullet_2: -7500341700066412395
+      weapon_bullet_3: -7233278182342934215
+      weapon_bullet_4: 4531275813216471585
+      weapon_bullet_5: 1499340714466408896
+      weapon_bullet_6: -1074786334143915823
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
